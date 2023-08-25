@@ -22,7 +22,7 @@ arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 </pre>
 
 When the second argument is set to ```css #2288dd True```, the answers should be displayed.
-
+<p style='color:red'>This is some red text.</p>
 ## Function Call:
 ```python
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)

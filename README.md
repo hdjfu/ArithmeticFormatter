@@ -6,7 +6,7 @@ Students in primary school often arrange arithmetic problems vertically to make 
 +  52
 -----
 </pre>
-This program converts a list of strings that are arithmetic problems to problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to **True**, the answers should be displayed.
+This program converts a list of strings that are arithmetic problems to problems arranged vertically and side-by-side. The function should optionally take a second argument.
 
 ## Example
 Function Call:
@@ -20,6 +20,8 @@ arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 + 698    -    2    + 43    +  49
 -----    ------    ----    -----
 </pre>
+
+When the second argument is set to @@True@@, the answers should be displayed.
 
 ## Function Call:
 ```python

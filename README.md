@@ -21,7 +21,7 @@ arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 -----    ------    ----    -----
 </pre>
 
-When the second argument is set to @@True@@, the answers should be displayed.
+When the second argument is set to **```diff + True```**, the answers should be displayed.
 
 ## Function Call:
 ```python

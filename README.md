@@ -9,10 +9,10 @@ A lightweight Python utility that transforms addition and subtraction expression
 
 Implement the function:
 
-<pre>
+<pre><code class="language-python">
 def arithmetic_arranger(problems, show_answers=False):
-    ...
-</pre>
+    """Arrange and optionally solve arithmetic problems."""
+</code></pre>
 
 This function:
 - Takes a list of strings representing arithmetic problems.
@@ -23,9 +23,9 @@ This function:
 
 ## Example Usage
 
-<pre>
+<pre><code class="language-python">
 arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
-</pre>
+</code></pre>
 
 Output:
 
@@ -37,9 +37,9 @@ Output:
 
 With results:
 
-<pre>
+<pre><code class="language-python">
 arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
-</pre>
+</code></pre>
 
 Output:
 
